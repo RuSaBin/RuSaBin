@@ -1,4 +1,5 @@
 
 bundle exec jekyll serve
+bin/deploy --user
 jekyll build
 rsync -a _site/ binkytesadauskiene@login.lix.polytechnique.fr:.webdir/
